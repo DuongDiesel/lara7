@@ -39,7 +39,10 @@ export default {
         url="/https://adminlaravelgithub.herokuapp.com/dashboardreport/"+String(selectInfo.dateStr);
         window.location.replace(url);
         //alert('date click! ' + selectInfo.dateStr);
-    }
+    },
+    mounted() {
+            console.log('Component dateclick mounted.')
+        }
   }
 }
 </script>

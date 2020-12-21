@@ -17260,6 +17260,9 @@ __webpack_require__.r(__webpack_exports__);
     gotoreport: function gotoreport(selectInfo) {
       url = "/https://adminlaravelgithub.herokuapp.com/dashboardreport/" + String(selectInfo.dateStr);
       window.location.replace(url); //alert('date click! ' + selectInfo.dateStr);
+    },
+    mounted: function mounted() {
+      console.log('Component dateclick mounted.');
     }
   }
 });
@@ -65924,8 +65927,8 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 
 Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
 Vue.component('com1', __webpack_require__(/*! ./components/Com1.vue */ "./resources/js/components/Com1.vue")["default"]);
-Vue.component('DateClick', __webpack_require__(/*! ./components/DateClick.vue */ "./resources/js/components/DateClick.vue")["default"]);
-Vue.component('DateClick1', __webpack_require__(/*! ./components/DateClick1.vue */ "./resources/js/components/DateClick1.vue")["default"]);
+Vue.component('dateclick', __webpack_require__(/*! ./components/DateClick.vue */ "./resources/js/components/DateClick.vue")["default"]);
+Vue.component('dateclick2', __webpack_require__(/*! ./components/DateClick1.vue */ "./resources/js/components/DateClick1.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
