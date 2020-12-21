@@ -6,7 +6,7 @@
                     <div class="card-header">Example Component</div>
 
                     <div class="card-body">
-                        day la com1
+                        day la com1-sau khi sua
                     </div>
                 </div>
             </div>
