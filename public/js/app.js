@@ -37571,7 +37571,9 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
-              _vm._v("\n                    day la com1\n                ")
+              _vm._v(
+                "\n                    day la com1-sau khi sua\n                "
+              )
             ])
           ])
         ])
