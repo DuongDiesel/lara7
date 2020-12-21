@@ -25,6 +25,10 @@ Route::get('/test1', function () {
     return view('test1');
 });
 
+Route::get('/dashboard', function () {
+    return view('admin.dashboard');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
