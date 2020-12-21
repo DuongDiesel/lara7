@@ -20,7 +20,7 @@ export default {
   methods:{
     handleDateSelect(selectInfo) {
       let calendarApi = selectInfo.view.calendar
-      var url="/dashboard2report/";
+      var url="/dashboardreport/";
       console.log(selectInfo.dateStr);
       var myDate = String(selectInfo.dateStr);
       console.log(myDate);
@@ -35,11 +35,7 @@ export default {
       //var url="/https://adminlaravelgithub.herokuapp.com/dashboard2report/"+String(selectInfo.dateStr);
        window.open(res);
     },
-    gotoreport(selectInfo){
-        url="/https://adminlaravelgithub.herokuapp.com/dashboardreport/"+String(selectInfo.dateStr);
-        window.location.replace(url);
-        //alert('date click! ' + selectInfo.dateStr);
-    },
+    
     mounted() {
             console.log('Component dateclick mounted.')
         }

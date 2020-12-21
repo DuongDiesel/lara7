@@ -17242,7 +17242,7 @@ __webpack_require__.r(__webpack_exports__);
   methods: {
     handleDateSelect: function handleDateSelect(selectInfo) {
       var calendarApi = selectInfo.view.calendar;
-      var url = "/dashboard2report/";
+      var url = "/dashboardreport/";
       console.log(selectInfo.dateStr);
       var myDate = String(selectInfo.dateStr);
       console.log(myDate);
@@ -17256,10 +17256,6 @@ __webpack_require__.r(__webpack_exports__);
       //var url="/https://adminlaravelgithub.herokuapp.com/dashboard2report/"+String(selectInfo.dateStr);
 
       window.open(res);
-    },
-    gotoreport: function gotoreport(selectInfo) {
-      url = "/https://adminlaravelgithub.herokuapp.com/dashboardreport/" + String(selectInfo.dateStr);
-      window.location.replace(url); //alert('date click! ' + selectInfo.dateStr);
     },
     mounted: function mounted() {
       console.log('Component dateclick mounted.');
@@ -17316,10 +17312,6 @@ __webpack_require__.r(__webpack_exports__);
       //var url="/https://adminlaravelgithub.herokuapp.com/dashboard2report/"+String(selectInfo.dateStr);
 
       window.open(res);
-    },
-    gotoreport: function gotoreport(selectInfo) {
-      url = "/https://adminlaravelgithub.herokuapp.com/dashboard1report/" + String(selectInfo.dateStr);
-      window.location.replace(url); //alert('date click! ' + selectInfo.dateStr);
     }
   }
 });

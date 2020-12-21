@@ -34,11 +34,6 @@ export default {
       calendarApi.unselect(); // clear date selection
       //var url="/https://adminlaravelgithub.herokuapp.com/dashboard2report/"+String(selectInfo.dateStr);
        window.open(res);
-    },
-    gotoreport(selectInfo){
-        url="/https://adminlaravelgithub.herokuapp.com/dashboard1report/"+String(selectInfo.dateStr);
-        window.location.replace(url);
-        //alert('date click! ' + selectInfo.dateStr);
     }
   }
 }
