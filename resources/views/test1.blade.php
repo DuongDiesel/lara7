@@ -66,6 +66,7 @@
     <body>
         <div id="app">
             <com1></com1> 
+            <example-component></example-component> 
         </div>
         <script type="text/javascript" src="js/app.js"></script>
     </body>
